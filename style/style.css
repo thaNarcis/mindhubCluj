@@ -1,0 +1,102 @@
+*{
+    text-align: center;  
+}
+
+body{
+    background-color: #F0FDFD;
+    font-family: 'Ubuntu', sans-serif;
+    color: #15361e;
+}
+
+h1{
+    color: #000000;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 6px 6px 5px black;
+    padding: 15% 10%;
+}
+
+h2{
+    color: #ff757e;
+    font-size: 20px;
+}
+
+a{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #ffffff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    box-shadow: 5px 5px 8px #a097997;
+    background: linear-gradient(#fc8c82, #f33123);
+}
+
+nav a{
+    font-size: 25px;
+    box-shadow: 0px 0px 0px;
+}
+
+ul li {
+    text-align: left;
+}
+
+ol li {
+    text-align: left;
+}
+
+.card{
+    background-color: #ffd1d1;
+}
+
+.rotund{
+    border-radius: 25px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#coperta{
+    background-image: url("../images/banner.png");
+    background-attachment: fixed;
+    background-position: cover;
+    padding: 100px 50px;
+    min-height:500px;
+}
+
+#coperta h1{
+    color: #fffae5;
+    letter-spacing: 6px;
+    text-shadow: 6px 6px 6px #000000;
+}
+
+#coperta p{
+    font-size: 24px;
+    color: #fffae5;
+    letter-spacing: 6px;
+    text-shadow: 6px 6px 6px #000000;
+}
+
+form{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    background-image: url("../images/banner.png");
+    background-attachment:fixed;
+    background-position:cover;
+    min-height:500px;
+}
+
+form input,
+form textarea{
+    margin-top:6px;
+    padding:10px;
+    border-radius:6px;
+    border:none;
+    border:0;
+    box-shadow:0 10px 20px #999999;
+    width:60%;
+}
